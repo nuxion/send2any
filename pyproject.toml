@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "An unified notification sender sdk"
 authors = ["nuxion <nuxion@gmail.com>"]
 packages = [
-   { include = "sent2any"},
+   { include = "send2any"},
 ]
 license = "Apache-2.0"
 readme = "README.md"
@@ -19,8 +19,8 @@ classifiers = [
 ]
 
 
-[tool.poetry.scripts]
-send = "send2any.cli:cli"
+# [tool.poetry.scripts]
+# send = "send2any.cli:cli"
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.10"
