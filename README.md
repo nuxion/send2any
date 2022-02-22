@@ -1,8 +1,8 @@
-# Sent2Any
+# Send2Any
 
 ![readthedocs](https://readthedocs.org/projects/send2any/badge/?version=latest)
 ![PyPI - Format](https://img.shields.io/pypi/format/nb_workflows)
-![PyPI - Status](https://img.shields.io/pypi/status/nb_workflows)a
+![PyPI - Status](https://img.shields.io/pypi/status/nb_workflows)
 
 [![Latest PyPI version](https://img.shields.io/pypi/v/send2any.svg)](https://pypi.python.org/pypi/send2any)
 [![Python versions](https://img.shields.io/pypi/pyversions/send2any.svg)](https://pypi.python.org/pypi/send2any)
@@ -15,6 +15,12 @@
 
 ## Description 
 
-A simple notification library around different services like slack, discord, traditional email, and so on, with the goal to provide an unified api when possible. 
+A notification library around  services like slack, discord, traditional email, and so forth.
 
+The goal is to provide an unified api between different services when possible. 
 
+Futhermore, whenever possible, the project will try to use only bare bones http requests before any third party library. 
+
+## Resources
+
+- [Slack API docs](https://api.slack.com/authentication/basics)
